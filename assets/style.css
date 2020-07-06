@@ -16,7 +16,7 @@ body a {
 body a:hover {
 	text-decoration: underline;
 	color: #000;
-	background color: #DCDCDC;
+	background-color: #D3D3D3;
 }
 
 nav {
