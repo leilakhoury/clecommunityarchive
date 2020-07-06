@@ -31,6 +31,7 @@ nav ul {
 nav li {
   display: inline-block;
   margin-left: 20px;
+  position: relative;
 }
 
 nav a {
@@ -41,6 +42,22 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  background-color: #FFFFFF;
-  border-bottom: 2px solid;
+}
+
+nav a:before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background: #FFFFFF;
+	
+	position: absolute;
+	top: 0;
+	width: 0%;
+	
+	transition: all ease-in-out 250ms;
+}
+
+nav a: hover before {
+	width: 100%
 }
