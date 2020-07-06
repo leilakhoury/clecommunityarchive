@@ -7,6 +7,13 @@ h1 {
   color: #000;
 }
 
+link a {
+  text-decoration: none;
+  color: #000;
+  background-color: #40E0D0;
+  text-align: left;
+}
+
 nav {
   float: right;
   padding: 20;
