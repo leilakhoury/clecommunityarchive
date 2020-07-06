@@ -7,11 +7,15 @@ h1 {
   color: #000;
 }
 
-link a {
+body a {
   text-decoration: none;
   color: #000;
   background-color: #40E0D0;
   text-align: left;
+}
+
+body a:hover {
+	text-decoration: underline;
 }
 
 nav {
