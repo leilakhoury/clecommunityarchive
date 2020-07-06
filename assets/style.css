@@ -10,7 +10,7 @@ h1 {
 body a {
   text-decoration: none;
   color: #000;
-  background-color: #D3D3D3
+  background-color: #D3D3D3;
   padding: 4px 6px 4px;
 }
 
@@ -43,5 +43,5 @@ nav a {
 nav a:hover {
   text-decoration: none;
   background-color: #FFFFFF;
-  border-top: 5px solid;
+  border-top: 6px solid;
 }
