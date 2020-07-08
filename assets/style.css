@@ -32,8 +32,8 @@ body a:hover {
 
 .left-col {
   float: left;
-  width: 25%;
-  margin-right: 5%;
+  width: 20%;
+  padding-right: 10%;
 }
 
 .main-col {
