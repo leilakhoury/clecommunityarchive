@@ -32,18 +32,18 @@ body a:hover {
 .left-col {
   float: left;
   width: 35%;
-  margin: 5%;
+  margin:
 }
 
 .main-col {
   float: right;
   width: 60%;
-  margin: 5%;
+  margin:
 }
 
 nav {
   float: right;
-  padding: 20;
+  padding-top: 60px;
 }
 
 nav ul {
