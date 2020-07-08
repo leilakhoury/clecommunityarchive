@@ -1,13 +1,24 @@
 body {
   font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
   margin: 30px 300px 30px 300px;
-  }
-  
-  ::selection { background: yellow  };
+}
+
+::selection {
+  background: yellow;
 }
 
 h1 {
   color: #000;
+}
+
+h2 {
+  margin-bottom: 6;
+  color: #FF8C00;
+}
+
+h2:hover {
+  
 }
 
 body a {
@@ -18,8 +29,19 @@ body a {
 }
 
 body a:hover {
-	text-decoration: underline;
-	background-color: #40E0D0;
+  text-decoration: underline;
+  background-color: #40E0D0;
+}
+
+.left-col {
+  float: left;
+  width: 35%;
+  margin-right: 5%
+}
+
+.main-col {
+  float: right;
+  width: 60%;
 }
 
 nav {
