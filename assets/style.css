@@ -18,6 +18,7 @@ h2 {
 
 body a {
   text-decoration: none;
+  font-weight: bold;
   color: #000;
   background-color: #D3D3D3;
   padding: 4px 6px 4px;
@@ -42,7 +43,8 @@ body a:hover {
 nav {
   float: right;
   padding-top: 60px;
-  padding-right:120px;
+  padding-bottom: 60px;
+  padding-right: 120px;
 }
 
 nav ul {
