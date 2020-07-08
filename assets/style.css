@@ -42,6 +42,7 @@ body a:hover {
 nav {
   float: right;
   padding-top: 60px;
+  padding-right:40px;
 }
 
 nav ul {
