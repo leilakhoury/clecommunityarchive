@@ -1,5 +1,6 @@
 body {
   font-family: helvetica, arial, sans-serif;
+  padding-top: 60px;
 }
 
 ::selection {
@@ -21,7 +22,7 @@ body a {
   font-weight: bold;
   color: #000;
   background-color: #D3D3D3;
-  padding: 4px 6px 4px;
+  padding: 6px 6px 6px 6px;
 }
 
 body a:hover {
@@ -43,8 +44,7 @@ body a:hover {
 nav {
   float: right;
   padding-top: 60px;
-  padding-bottom: 60px;
-  padding-right: 120px;
+  padding-right: 140px;
 }
 
 nav ul {
@@ -59,6 +59,7 @@ nav li {
 
 nav a {
   text-decoration: none;
+  font-weight: normal;
   color: #000;
   background-color: #FFFFFF;
 }
