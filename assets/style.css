@@ -33,7 +33,7 @@ body a:hover {
 .left-col {
   float: left;
   width: 25%;
-  padding-right: 5%;
+  margin-right: 5%;
 }
 
 .main-col {
