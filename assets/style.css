@@ -1,6 +1,5 @@
 body {
   font-family: helvetica, arial, sans-serif;
-  padding-top: 60px;
 }
 
 ::selection {
@@ -33,12 +32,12 @@ body a:hover {
 
 .left-col {
   float: left;
-  width: 35%;
+  width: 30%;
 }
 
 .main-col {
   float: right;
-  width: 60%;
+  width: 70%;
 }
 
 nav {
