@@ -4,10 +4,6 @@ body {
   margin: 30px 300px 30px 300px;
 }
 
-.wrapper {
-	width: 100%;
-}
-
 ::selection {
   background: yellow;
 }
@@ -21,9 +17,6 @@ h2 {
   color: #FF8C00;
 }
 
-h2:hover {
-  
-}
 
 body a {
   text-decoration: none;
