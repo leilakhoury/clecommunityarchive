@@ -1,6 +1,5 @@
 body {
   font-family: helvetica, arial, sans-serif;
-
 }
 
 ::selection {
@@ -26,18 +25,20 @@ body a {
 
 body a:hover {
   text-decoration: underline;
+  color: #000;
   background-color: #40E0D0;
 }
 
 .left-col {
   float: left;
   width: 35%;
-  margin-right: 5%
+  margin: 5%;
 }
 
 .main-col {
   float: right;
   width: 60%;
+  margin: 5%;
 }
 
 nav {
@@ -63,6 +64,7 @@ nav a {
 
 nav a:hover {
   text-decoration: none;
+  color: #000;
   background-color: #FFFFFF;
   border-top: 6px solid;
 }
