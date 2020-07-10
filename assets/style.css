@@ -6,6 +6,24 @@ body {
   background: yellow;
 }
 
+.body-link {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000;
+  background-color: #FFFFFF;
+  padding: 2px; 
+}
+
+.body-link:hover {
+  color: #000;
+  background-color: #FFA500;
+  padding: 2px; 
+}
+
+#left-block{
+  width: 40%; 
+}
+
 h1 {
   color: #000;
 }
