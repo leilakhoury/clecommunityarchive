@@ -69,7 +69,7 @@
       }
 
       .mapboxgl-container {
-        cursor: grab;
+        cursor: pointer;
       }
 
       .mapboxgl-popup-anchor-top > .mapboxgl-popup-content {
@@ -79,7 +79,6 @@
       .mapboxgl-popup-anchor-top > .mapboxgl-popup-tip {
         border-bottom-color: rgb(61, 59, 59);
       }
-	 
     </style>
   </head>
 
@@ -139,12 +138,8 @@
                   },
                   paint: {
                     "circle-radius": 6,
-                    "circle-color": "purple",
-					
+                    "circle-color": "purple"
                   }
-				  .paint:hover {
-				  "circle-color": "red",
-}
                 });
 
                 // When a click event occurs on a feature in the csvData layer, open a popup at the
@@ -182,12 +177,14 @@
                     .addTo(map);
                 });
 
+                // Change the cursor to a pointer when the mouse is over the places layer.
                 map.on("mouseenter", "csvData", function() {
                   map.getCanvas().style.cursor = "pointer";
                 });
 
+                // Change it back to a pointer when it leaves.
                 map.on("mouseleave", "places", function() {
-                  map.getCanvas().style.cursor = "grab";
+                  map.getCanvas().style.cursor = "";
                 });
 
                 var bbox = turf.bbox(data);
