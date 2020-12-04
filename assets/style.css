@@ -95,10 +95,6 @@ nav a:hover {
   position: relative;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
 
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
